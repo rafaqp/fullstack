@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+.name {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section {
+    padding: 2rem;
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.skill {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+}
+
+.skill img {
+    max-width: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.project, .recommendation {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+#recommendation-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#recommendation-form textarea {
+    margin: 1rem 0;
+    padding: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.home-icon img {
+    max-width: 30px;
+}
+
+.home-icon img:hover {
+    cursor: pointer;
+}
